@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background: #F3F3E2; /* Ivory */
+    color: #333333; /* Charcoal */
 }
 
-header {
-    background: #222;
-    color: white;
+header, footer {
+    background: #030C11; /* Midnight blue / Rich black */
+    color: #E7EAEE; /* Light grayish blue */
     padding: 1em;
 }
 
@@ -22,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #E7EAEE; /* Light grayish blue */
     text-decoration: none;
 }
 
@@ -30,8 +32,15 @@ section {
     padding: 50px;
 }
 
+a {
+    color: #030C11; /* Dark color for contrast */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 footer {
-    background: #222;
-    color: white;
     padding: 10px;
 }
